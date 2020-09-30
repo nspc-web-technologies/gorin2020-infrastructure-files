@@ -26,11 +26,17 @@ Object.entries(packages).forEach(package => {
   // ディレクトリをコピー
   if (fs.existsSync(packageDir + '/dist')) {
     console.log(name)
-    fs.copySync(packageDir + '/dist', outDir + '/' + formatedName);
+    fs.copySync(packageDir + '/dist', outDir + '/' + formatedName)
+    /*
+    if (fs.existsSync(packageDir + '/README.md')) {
+      console.log('  README: ○')
+      fs.copySync(packageDir + '/README.md', outDir + '/' + formatedName + '/README.md');
+    }
+    */
   } else {
-    console.log('* ' + name)
-    fs.copySync(packageDir, outDir + '/' + formatedName);
+    console.log(name + ' *')
+    fs.copySync(packageDir, outDir + '/' + formatedName)
   }
-});
+})
 
 console.log('\n' + outDir)
