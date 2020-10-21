@@ -2,7 +2,7 @@
   "_args": [
     [
       "@fortawesome/fontawesome-free@5.15.0",
-      "W:\\infrastructure\\frameworks\\js\\vue"
+      "Z:\\Desktop\\infrastructure\\frameworks\\js\\vue"
     ]
   ],
   "_from": "@fortawesome/fontawesome-free@5.15.0",
@@ -27,7 +27,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.15.0.tgz",
   "_spec": "5.15.0",
-  "_where": "W:\\infrastructure\\frameworks\\js\\vue",
+  "_where": "Z:\\Desktop\\infrastructure\\frameworks\\js\\vue",
   "author": {
     "name": "Dave Gandy",
     "email": "dave@fontawesome.com",

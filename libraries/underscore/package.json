@@ -2,7 +2,7 @@
   "_args": [
     [
       "underscore@1.11.0",
-      "W:\\infrastructure\\frameworks\\js\\vue"
+      "Z:\\Desktop\\infrastructure\\frameworks\\js\\vue"
     ]
   ],
   "_from": "underscore@1.11.0",
@@ -26,7 +26,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/underscore/-/underscore-1.11.0.tgz",
   "_spec": "1.11.0",
-  "_where": "W:\\infrastructure\\frameworks\\js\\vue",
+  "_where": "Z:\\Desktop\\infrastructure\\frameworks\\js\\vue",
   "author": {
     "name": "Jeremy Ashkenas",
     "email": "jeremy@documentcloud.org"

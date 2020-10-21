@@ -2,7 +2,7 @@
   "_args": [
     [
       "sortablejs@1.10.2",
-      "W:\\infrastructure\\frameworks\\js\\vue"
+      "Z:\\Desktop\\infrastructure\\frameworks\\js\\vue"
     ]
   ],
   "_from": "sortablejs@1.10.2",
@@ -27,7 +27,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/sortablejs/-/sortablejs-1.10.2.tgz",
   "_spec": "1.10.2",
-  "_where": "W:\\infrastructure\\frameworks\\js\\vue",
+  "_where": "Z:\\Desktop\\infrastructure\\frameworks\\js\\vue",
   "bugs": {
     "url": "https://github.com/SortableJS/Sortable/issues"
   },
