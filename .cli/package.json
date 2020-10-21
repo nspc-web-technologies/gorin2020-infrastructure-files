@@ -7,8 +7,8 @@
     "laravel-zip": "node createModuleZip ../frameworks/php/laravel vendor",
     "cakephp-zip": "node createModuleZip ../frameworks/php/cakephp vendor",
     "libraries": "node createLibrary ../frameworks/js/vue ../libraries",
-    "commit": "npm run _set-git-user && git add --all && git commit -m `node ./version` && git push origin master && npm run _release",
-    "_release": "git tag `node ./version` && git push origin --tags",
+    "release": "npm run _set-git-user && git add --all && git commit -m `node ./version` && git push origin master && npm run _tag",
+    "_tag": "git tag `node ./version` && git push origin --tags",
     "_set-git-user": "git config --local user.name 'gorin' && git config --local user.email 'gorin@example.com'",
     "_check-vue-win-module": "shx test -e ../frameworks/js/vue/node_modules/.bin/webpack.cmd"
   },
